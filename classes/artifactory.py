@@ -72,7 +72,7 @@ class artifactory():
             groupNames = list() 
  
             for groupName in account_data['gropePolicy']:
-                groupNames.append({"groupName" : "%s", "realm" : "artifactory"} % groupName)
+                groupNames.append({"groupName" : "%s" % groupName, "realm" : "artifactory" } )
 
             payload['userGroups'] = groupNames
             

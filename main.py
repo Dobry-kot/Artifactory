@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     """gropePolicy = ['read', 'writhe']"""
     usernames_delete    = ['ttestovich' , 'ttestov'] # for delete user(s) variable is list
-    gropePolicy         = ['readers'    , 'writers']   
+    gropePolicy         = ['readers', 'writers']   
     username_create     = 'ttestovich'               # for create user variable is str
     email               = 'ttestovich@mail.ru'
     password            = 't4too7a'
