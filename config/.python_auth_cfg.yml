@@ -1,0 +1,6 @@
+# template python-services cfg 
+# copy this cfg to home dir ~/.python_auth_cfg.yml cfg
+artifactory:
+  admin_user      : 'my user'
+  admin_password  : 'my pass'
+  artifactory_url : https://artifactory.net # input your url
